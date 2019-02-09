@@ -647,7 +647,7 @@ footer {
 .mailList {
   max-width: 1200px;
   margin: auto;
-  background-color: #ffc917;
+  background-color: #ffae00;
   color: #464547;
   text-align: center;
   box-shadow: 0px 0px 5px gray;
@@ -708,10 +708,10 @@ form {
 #done-btn {
   width: 25%;
   height: 46px;
-  background: rgba(255, 174, 0, 0.5);
+  background: #464547;
+  color: #fff;
   font-family: inherit;
   font-weight: bold;
-  color: inherit;
   letter-spacing: 1px;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
@@ -721,7 +721,7 @@ form {
   
 
 #done-btn:hover {
-  background: rgba(255, 174, 0, 1);
+  background: black;
 }
   
 
