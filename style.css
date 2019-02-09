@@ -607,7 +607,7 @@ footer {
     margin-top: 40px;
   }
 
-  .mailboxContainer {
+  .mailList {
   background: #ffc917;
   font-family: 'Lato', sans-serif;
   color: #464547;
@@ -615,7 +615,7 @@ footer {
 }
 
 
- .mailboxContainer form {
+ .mailList form {
   width: 450px;
   margin: 0;
   padding: 0vh;
@@ -644,10 +644,13 @@ footer {
 }
 
 
-.mailboxContainer {
+.mailList {
+  max-width: 1200px;
+  margin: auto;
   background-color: #ffc917;
   color: #464547;
   text-align: center;
+  box-shadow: 0px 0px 5px gray;
 }
 
 
@@ -664,6 +667,10 @@ form {
   letter-spacing: 5px;
   color: #fff;
   text-shadow: 0px 0px 5px gray;
+}
+
+.titleName p {
+  color: #fff;
 }
 
 
